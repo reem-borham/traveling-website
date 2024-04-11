@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+ 
+
+
+<head>
+<link href="style taple.css" rel="stylesheet" type="text/css">
+
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+<title>hotels</title> 
+
+
+
+</head>  
+
+
+<body >
+
+    <div class="header">
+        <div class="container">
+            <h1>find your next stay </h1>
+            <div class="search-bar">
+                <form>
+                        <div>
+                            <label>location:</label>
+                            <select name="places" id="places" onchange="showMe(this.value);">
+                            <option value="0"></option>
+                            <option value="cairo">Cairo</option>
+                            <option value="luxor">Luxor</option>
+                            <option value="Alexandria">Alexandria </option>
+                            <option value="Siwa">Siwa </option>
+                            <option value="Cruising the Nile">Cruising the Nile</option>
+                            </select>
+                       
+                        </div>
+                        <div>
+                            <label for="dateInput">Date:</label>
+                            <input type="date" id="dateInput" name="dateInput">
+                        </div>
+                        <div>
+                            <button type="submit" id="submitButton">
+                                <img src="https://th.bing.com/th/id/OIP.vyhkMafwzVBCCSsgGJfI4wHaHa?pid=ImgDet&rs=1" alt="Submit">
+                            </button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    
+    </div>
+    <h1></h1>
+    <br><br>
+    <div class="cairo" id="x" style=" display : none;">
+        <h1> Top 6 hotels for your stay in cairo </h1><br>
+        <ol>
+            <h2><li>Tolip Golden Plaza Hotel</li><br></h2>
+
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/05/11/dc/tolip-golden-plaza-hotel.jpg?w=1400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/05/15/1e/tolip-golden-plaza-hotel.jpg?w=1400&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a7/b3/21/a-nice-open-air-pool.jpg?w=1100&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/05/12/f0/tolip-golden-plaza-hotel.jpg?w=1400&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+
+            <p align ="justify">Tolip Golden Plaza Hotel is conveniently located in the heart of Heliopolis, the notorious elegant residential and commercial area. The hotel is set 8km from Cairo International Airport, 12 km from the down town Cairo and just few minutes away from The Cairo International Convention Centre. The hotel also enjoys easy access to some of Egypt best shopping malls; it is at a 2-minute walk from City Stars Mall and at a 10-minute drive from Cairo Festival City Mall.</p>
+            <br><br><h2><li>Triumph Plaza Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/69/8d/92/triumph-plaza-hotel.jpg?w=1400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/5d/45/2d/triumph-plaza-hotel.jpg?w=1100&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/f4/64/3d/triumph-plaza-hotel.jpg?w=1400&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/31/53/f6/exterior.jpg?w=1400&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <br><p align ="justify">Triumph Plaza Hotel is a upmarket hotel conveniently situated in Heliopolis area which is the most attractive residential area it is only few minutes away from all Cairo’s hot spots as Salah Salem avenue Cairo’s main road , Cairo international airport , Cairo international conference centre and biggest shopping areas in Cairo Enjoy delicious fine taste and exquisite cuisines from all around the world we bring to you our Seehraz Restaurant offers sumptuous buffet breakfast, Lunch and Dinner for your choice. In our Lebanese restaurant, you are welcome to choose from our large à-la-carte Menu, or which boasts a wide selection of freshly prepared Lebanese Specialities. The atmosphere in our Restaurant is always lively, yet cosy and authentic. Not only our many international Guests appreciate the atmosphere, also many Locals come in regularly and enjoy their meal. ‘Up to you’ coffee shop is the place where is you can enjoy your drink and home made pastries and bakery In rehana Enjoy the beautiful summer evenings on our Garden Terrace and take in the unique atmosphere! Not only Unwind in our exquisite Executive Lounge when you book any of our rooms & suites.</p>
+            
+            <br><h2><li>Ramses Hilton</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/ac/48/92/exterior.jpg?w=1400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ad/f1/a3/ramses-hilton.jpg?w=2000&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ad/f3/7f/ramses-hilton.jpg?w=2000&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ad/f3/b8/ramses-hilton.jpg?w=2000&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Finding an ideal family-friendly hotel in Cairo does not have to be difficult. Welcome to Ramses Hilton, a nice option for travelers like you.
+
+                Given the close proximity of popular landmarks, such as Zamalek (Gezira Island) (0.5 mi) and Mosque of Al-Azhar (0.9 mi), guests of Ramses Hilton can easily experience some of Cairo's most well known attractions.
+                
+                Ramses Hilton is a family-friendly hotel offering a flat screen TV, a minibar, and air conditioning in the rooms, and it is easy to stay connected during your stay as free wifi is offered to guests.
+                
+                The hotel features a concierge, room service, and a rooftop terrace. Plus, guests can enjoy a pool and free breakfast, which have made this a popular choice among travelers visiting Cairo. For guests with a vehicle, parking is available.
+                
+                While you’re here, be sure to check out some of the cafes, including Naguib Mahfouz Cafe, Hard Rock Cafe Cairo/Citadel, and El Fishawi, all of which are a short distance from Ramses Hilton.
+                
+                Cairo is also home to Military Museum, a popular military museum that is not too far from Cairo Hilton.
+                
+                Ramses Hilton looks forward to welcoming you on your visit to Cairo.</p>
+            
+            
+            <br><h2><li>Hilton Cairo Zamalek Residences</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c2/9d/50/exterior.jpg?w=700&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/75/8f/4e/pool.jpg?w=1100&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/73/96/91/meeting-room.jpg?w=1100&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/73/96/26/guest-room.jpg?w=1100&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Set on the picturesque and exclusive island of Zamalek on the magnificent waters of the River Nile, the Hilton Zamalek Residence Cairo is located in a tranquil spot between downtown Cairo and Giza and is only 12 miles from Cairo Airport. All of the luxurious guest rooms at this hotel in Cairo offer spectacular city or river views and feature modern amenities such as high-speed internet access and LCD TVs. Upgrade to an elegant suite for additional space, a kitchen, living and dining areas and terraces offering scenic Nile views. Hold a professional conference in one of 3 flexible meeting rooms, all of which feature the latest in audio/visual technology and make use of our business center. Dine on international and oriental cuisine overlooking the pool and the River Nile in Nile Breeze, listen to live music in the Tea Time Lounge and enjoy casual al fresco food and drink on the deck at Waves. Work out in the complimentary Fitness Center, swim lengths in the heated swimming pool, which features a Jacuzzi or indulge in a massage while the little ones have fun in the Children’s Play Area. Explore the Egyptian Museum, experience the exotic sights, sounds and smells of the vibrant Egyptian Bazaar, 'Khan El-Khalili' and marvel at the Great Sphinx and Pyramids at Giza.</p>
+            <br><h2><li>Steigenberger Hotel El Tahrir Cairo</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/10/35/ab/steigenberger-hotel-el.jpg?w=2000&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/c9/d5/54/steigenberger-hotel-el.jpg?w=1400&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/9b/0a/3c/business-room.jpg?w=1100&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/e0/6c/fe/diamond-ballroom-wedding.jpg?w=1200&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify"> Among Cairo hotels, Steigenberger El Tahrir secures a spectacular location in El Tahrir Square, overlooking the Egyptian museum, minutes away from Khan El Khalili Bazar, and in close proximity to Egypt's major attractions with a total area of 21,633 sqm. The hotel boasts 295 guest rooms and suites with luxurious decoration items and in-room amenities. This landmark hotel is an ideal location for business trips and social events, offering a variety of culinary outlets, a swimming pool, gym and banqueting facilities. </p>
+            
+            <br><h2><li>Hilton Cairo Heliopolis</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/a0/9d/a7/hotel-facade.jpg?w=1400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9a/47/2a/hilton-cairo-heliopolis.jpg?w=1400&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/16/fe/be/hilton-cairo-heliopolis.jpg?w=2000&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ae/69/d7/guest-room.jpg?w=1100&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Finding an ideal family-friendly hotel in Cairo does not have to be difficult. Welcome to Hilton Cairo Heliopolis, a nice option for travelers like you. While staying at Hilton Cairo Heliopolis, visitors can check out Baron Palace (2.1 mi) and St. Mark's Coptic Orthodox Church (2.3 mi), some of Cairo's top attractions. You’ll enjoy relaxing rooms that offer a flat screen TV, air conditioning, and a minibar, and you can stay connected during your stay as Hilton Cairo Heliopolis offers guests free Wi-Fi. The hotel features room service and a concierge. Plus, Hilton Cairo Heliopolis offers a pool, and providing a pleasant respite from your busy day. During your stay enjoy variety of international cuisines such as Raj Indian Restaurant, Leonardo Italian restaurant, Lan-Tania Thai Restaurant, Nobel house Asian restaurant and Al-Dabke Lebanese restaurant. While in Cairo be sure to experience nearby popular attractions like Egyptian Air Force Museum (0.9 mi) and Obelisk of Ramses II (1.2 mi), which are all within walking distance of the hotel. Hilton Cairo Heliopolis looks forward to welcoming you on your visit to Cairo. NOTE: The following services and amenities are available, but with reduced service: Business Center, Fitness Center, On-site Restaurant(s).</p>
+        
+        </ol>
+        <br>
+        <h3>Reference :</h3> 
+            <P>
+                <a href="https://www.tripadvisor.com/Hotels-g303857-Siwa_Matrouh_Governorate-Hotels.html">Tripadvisor.com</a>
+                <br>
+                <a href="https://www.hotels.com/Hotel-Search?HadPinnedHotel=true&PinnedHotelID=16163&destination=Luxor%2C%20Luxor%20Governorate%2C%20Egypt&endDate=2023-11-12&regionId=2181&selected=16163&semdtl=&sort=RECOMMENDED&startDate=2023-11-11&theme=&useRewards=false&userIntent=">hotels.com</a>
+                <br>
+                <a href="https://www.booking.com/hotel/eg/mirage-alexandria.en-gb.html?aid=852815&label=msn-4gk09CVZd_XtUWTx%2AmOqKg-16821565891%3Atikwd-80264554485339%3Aloc-187%3Aneo%3Amte%3Alp143039%3Adec%3Aqsbest%20hotels%20in%20alexandria&sid=3b71a78620b6297bde7f3b9d294f84f9">booking.com</a>
+                <br>
+                <a href="https://wanderingwheatleys.com/best-nile-cruise-ships-egypt-luxor-aswan/">Wandering Wheatleys.com</a>
+            </P>
+      
+    </div>
+    <div class="luxor" id="y" style=" display : none;">
+        <h1> Top 6 hotels for your stay in luxor </h1><br>
+        <ol>
+            <h2><li>Hilton Luxor Resort & Spa</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/1000000/20000/16200/16163/9b8713ae.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/20000/16200/16163/144f0587.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/20000/16200/16163/33ca4def.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/20000/16200/16163/c90ee38f.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify">A great choice for a stay in Luxor, Hilton Luxor Resort & Spa features a free kids' club and offers an airport shuttle (available 24 hours) for EGP 465 per person. You can visit the spa to be pampered with deep-tissue massages, body wraps or aromatherapy, and Silk Road, one of 3 restaurants, serves Asian cuisine and is open for dinner. Other highlights at this luxurious hotel include 2 outdoor pools, a poolside bar and a health club. The pool and helpful staff get good marks from fellow travellers.</P>
+            
+            <br><h2><li>Royal Mountain Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/90000000/89160000/89157500/89157423/0e906ff1.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/90000000/89160000/89157500/89157423/55badbd4.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/90000000/89160000/89157500/89157423/5fbf0d23.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/90000000/89160000/89157500/89157423/61f0b3b0.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Royal Mountain Hotel offers an airport shuttle (available 24 hours) for USD 30 per vehicle one-way. Guests can take a dip in the outdoor pool, and free perks include WiFi, self-parking and full breakfast daily between noon and noon. Fellow travellers love the helpful staff and breakfast.</p>
+            
+            <br><h2><li>Orient star hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/77000000/76980000/76979100/76979034/37f3077c.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76980000/76979100/76979034/w899h595x0y0-165859d2.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76980000/76979100/76979034/c2a8f804.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76980000/76979100/76979034/b52ef5a9.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify">Orient star hotel offers an airport shuttle (available 24 hours) for EGP 370 per vehicle return. After having fun at the outdoor pool, you can grab a bite to eat at the restaurant or unwind with a drink at the bar/lounge. A poolside bar and a snack bar/deli are offered, and in-room conveniences include washers/dryers and fridges.</P>
+            
+            <br><h2><li>Sofitel Winter Palace Luxor</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/1000000/10000/4300/4228/23812587.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/10000/4300/4228/ab940c47.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/10000/4300/4228/4875ae03.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/10000/4300/4228/7cf4990c.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify">Located near a train station, Sofitel Winter Palace Luxor is a great choice for a stay in Luxor. After splashing around at the outdoor pool, you can grab a bite to eat at one of the 3 restaurants or unwind with a drink at one of the 2 bars/lounges. Other highlights at this luxurious hotel include a snack bar/deli and a garden. Fellow travellers like the helpful staff.</P>
+            
+            <br><h2><li>onesta St George Hotel Luxor</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/1000000/70000/69500/69458/318c422e.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/70000/69500/69458/f44332e2.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/70000/69500/69458/d3354af5.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/70000/69500/69458/w3834h2556x0y5-d943a988.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Enjoy your visit to Luxor with a stay at Sonesta St George Hotel Luxor. Guests can be pampered with massages at the spa, and Serapis, one of 3 restaurants, serves breakfast, lunch and dinner. Other highlights at this luxurious hotel include 3 bars/lounges, an outdoor pool and a health club. Fellow travellers like the pool and helpful staff.</p>
+            
+            <br><h2><li>Aracan Eatabe Luxor Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/1000000/530000/525200/525107/731dac5e.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/530000/525200/525107/698afde2.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/530000/525200/525107/a9fc581e.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/1000000/530000/525200/525107/9f9294b6.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify"> Aracan Eatabe Luxor Hotel is a great choice for a stay in Luxor. Guests can take a dip in the outdoor pool or grab a bite to eat at Dakka, which is one of 4 restaurants and serves lunch and dinner. This upmarket hotel also features a poolside bar, a health club and a fitness centre. Fellow travellers like the location.</P>
+        </ol>
+        <br>
+        <h3>Reference :</h3> 
+            <P>
+                <a href="https://www.tripadvisor.com/Hotels-g303857-Siwa_Matrouh_Governorate-Hotels.html">Tripadvisor.com</a>
+                <a href="https://www.hotels.com/Hotel-Search?HadPinnedHotel=true&PinnedHotelID=16163&destination=Luxor%2C%20Luxor%20Governorate%2C%20Egypt&endDate=2023-11-12&regionId=2181&selected=16163&semdtl=&sort=RECOMMENDED&startDate=2023-11-11&theme=&useRewards=false&userIntent=">hotels.com</a>
+                <br>
+                <a href="https://www.booking.com/hotel/eg/mirage-alexandria.en-gb.html?aid=852815&label=msn-4gk09CVZd_XtUWTx%2AmOqKg-16821565891%3Atikwd-80264554485339%3Aloc-187%3Aneo%3Amte%3Alp143039%3Adec%3Aqsbest%20hotels%20in%20alexandria&sid=3b71a78620b6297bde7f3b9d294f84f9">booking.com</a>
+                <br>
+                <a href="https://wanderingwheatleys.com/best-nile-cruise-ships-egypt-luxor-aswan/">Wandering Wheatleys.com</a>
+            </P>
+        
+        
+    </div>
+
+    <div class="Alexandria" id="z" style=" display : none;">
+        <h1> Top 6 hotels for your stay in Alexandria  </h1><br>
+        <ol>
+            <h2><li>Helnan Mamoura Hotel & Events Center</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/368518064.jpg?k=3f39df85e7869854a31c78ebb4ed8b35b58eacc245604f8a9cd4c23d72002673&o=&hp=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/371342625.jpg?k=f3db09747e46376c8bf33a93aead7a39b13b7f342e53d012b90374247620ffec&o=&hp=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/369935748.jpg?k=b9a6a406bcd576cdbb65cb2872a8335a336b84b50aa34285049787fe66b0de4e&o=&hp=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/369953462.jpg?k=402da99466c912c60f193be4084e505dd852b7d161d38b5a2638c7464b24f0c0&o=&hp=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Located in Alexandria, 600 metres from Mamoura Beach, Helnan Mamoura Hotel & Events Center provides accommodation with a seasonal outdoor swimming pool, private parking, a terrace and a restaurant. This 5-star hotel offers room service, a 24-hour front desk and free WiFi. Guests can make use of a bar.
+
+                The hotel will provide guests with air-conditioned rooms with a wardrobe, a kettle, a minibar, a safety deposit box, a flat-screen TV and a private bathroom with a bath. At Helnan Mamoura Hotel & Events Center each room has bed linen and towels.
+                
+                Montazah Aida Beach is 2.3 km from the accommodation, while Sheraton Montazah Hotel Beach is 2.6 km away. The nearest airport is Borg el Arab International Airport, 65 km from Helnan Mamoura Hotel & Events Center.
+                
+                Couples particularly like the location</p>
+            <br><h2><li> Mirage Hotel & Conference Center</li> </h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1280x900/496121834.jpg?k=1440772109b716bf2f122ea4e34460801b81ba7b8755fcd599c1ab22417b1f6b&o=&hp=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/496120852.jpg?k=554af961a5e5a51e5588278ffacbd7634db2811a09764b8fbe63742ea2ed8739&o=&hp=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/496121864.jpg?k=6dbc522337892434714734432793416bedc555089408188bb8b1e46c3e917ada&o=&hp=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1024x768/466385579.jpg?k=c05586e48b0d5bb50ea781e52410b6564b2ab99f6adb5534eb6257fdb3ac6a9c&o=&hp=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+                <br><h3>about the hotel</h3>
+            <P align ="justify">Located in Alexandria, 2.1 km from Cleopatra Beach, Mirage Hotel & Conference Center provides accommodation with a terrace, private parking, a restaurant and a bar. Featuring a concierge service, this property also provides guests with an outdoor pool. The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi.
+
+                The hotel will provide guests with air-conditioned rooms offering a desk, a coffee machine, a minibar, a safety deposit box, a flat-screen TV and a private bathroom with a shower. Rooms are equipped with a kettle, while certain rooms include a balcony and others also offer pool views. At Mirage Hotel & Conference Center each room comes with bed linen and towels.
+                
+                A buffet breakfast is available daily at the accommodation.
+                
+                Popular points of interest near Mirage Hotel & Conference Center include Alexandria Zoo, Sidi Gaber Railway Station and Smouha Sporting Club. The nearest airport is Borg el Arab International Airport, 50 km from the hotel.
+                
+                Couples particularly like the location — they rated it 8.6 for a two-person trip.</P>
+                
+            <br><h2><li>SUNRISE Alex Avenue Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/3b/40/bc/pool-view.jpg?w=1400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ab/a5/11/deluxe-room.jpg?w=1400&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ab/a6/29/nasaya-restaurant-lounge.jpg?w=1100&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/41/26/f6/sunrise-alex-avenue-hotel.jpg?w=1400&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3> 
+            <p align ="justify">SUNRISE Alex Avenue Hotel is situated directly in the heart of Alexandria, combining a stellar seafront location, a secluded private beach with business amenities of a five-star hotel. The resort features a variety of restaurants, bars & cafes, a fully equipped gym (16+) and a full-serviced spa & beauty salon (chargeable). Wi-Fi is available throughout the resort. The hotel features a total of 167 rooms, which all enjoy a stunning sea view. The rooms come with a SAT LED TV, a safe box, a minibar, tea & coffee facilities and a terrace or balcony. The resort offers 5 restaurants in addition to the View Cafe with uninterrupted views of the Mediterranean Sea. Besides a private sandy beach, SUNRISE Alex Avenue Hotel features 2 swimming pools, a kid’s pool and a tennis court. With a large variety of conference and meeting rooms, SUNRISE Alex Avenue Resort offers several venues for your event. Additionally, the hotel is prepared to host your meetings, conferences, weddings or any other type of event at the open beach side, poolside or garden spaces. The hotel is located only 3 km from the city centre and the stunning Bibliotheca Alexandria.</p>   
+            <br><h2><li>Steigenberger Cecil Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/8b/97/d6/steigenberger-cecil-hotel.jpg?w=1100&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/dc/91/12/sofitel-cecil-alexandria.jpg?w=800&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/dc/91/26/sofitel-cecil-alexandria.jpg?w=800&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/89/87/fc/steigenberger-cecil-hotel.jpg?w=1100&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <p align ="justify">Steigenberger Cecil Alexandria lets you experience all the splendor of this amazing city first hand. Conveniently located in the heart of the business district, overlooking the bay and yacht club, this exquisite hotel is just minutes from the airport, ideal for business or pleasure. Built in 1929 yet constantly in step with the times, it provides a perfect blend of modern amenities and old world charm. Discerning connoisseurs also appreciate the impeccable service and attention to detail</p>
+
+            <br><h2><li>Sheraton Montazah Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/26/c3/48/sheraton-montazah-hotel.jpg?w=2400&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/c2/72/87/sheraton-montazah-hotel.jpg?w=1600&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/26/db/45/swimming-pool.jpg?w=2400&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/2e/90/b0/la-mamma-restaurant.jpg?w=1400&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <P align ="justify">Sheraton Montazah Hotel near Montazah Palace features gardens on one side and the bright blue waters of the Mediterranean Sea on the other.From the moment you arrive at our hotel in Alexandria, Egypt you will receive the warmest welcome from attentive and responsive staff whose mission is to make your stay a relaxing and unforgettable one.</P>
+
+            <br><h2><li>Cherry Maryski Hotel</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1e/e6/6f/hotel-entrance.jpg?w=1000&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/6f/13/cc/connected-room.jpg?w=2200&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/8a/0f/2b/swimming-pool.jpg?w=2000&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e9/7a/db/grand-royal-alex-hotel.jpg?w=2000&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify">One of Alexandria's business hotels, Cherry Maryski Hotel, enjoys one of the most idyllic locations, founded in the downtown area within 5 minutes walking distance of many historical sites. The city hotel is perfectly positioned near most of the vital zones & easy access to some of the most remarkable areas in Alexandria. The 4 star city hotel offers 192 guestrooms, all of which have been designed to ensure your stay with us to be as enjoyable as possible.</P>
+
+        </ol>
+        <br>
+        <h3>Reference :</h3> 
+            <P>
+                
+                <a href="https://www.tripadvisor.com/Hotels-g303857-Siwa_Matrouh_Governorate-Hotels.html">Tripadvisor.com</a>
+                <br>
+                <a href="https://www.hotels.com/Hotel-Search?HadPinnedHotel=true&PinnedHotelID=16163&destination=Luxor%2C%20Luxor%20Governorate%2C%20Egypt&endDate=2023-11-12&regionId=2181&selected=16163&semdtl=&sort=RECOMMENDED&startDate=2023-11-11&theme=&useRewards=false&userIntent=">hotels.com</a>
+                <br>
+                <a href="https://www.booking.com/hotel/eg/mirage-alexandria.en-gb.html?aid=852815&label=msn-4gk09CVZd_XtUWTx%2AmOqKg-16821565891%3Atikwd-80264554485339%3Aloc-187%3Aneo%3Amte%3Alp143039%3Adec%3Aqsbest%20hotels%20in%20alexandria&sid=3b71a78620b6297bde7f3b9d294f84f9">booking.com</a>
+                <br>
+                <a href="https://wanderingwheatleys.com/best-nile-cruise-ships-egypt-luxor-aswan/">Wandering Wheatleys.com</a>
+            </P>
+        
+
+    </div>
+
+    <div class="Siwa" id="a" style=" display : none;">
+        <h1> Top 6 hotels for your stay in Siwa </h1><br>
+        <ol>
+             <h2><li>Seliyaa Hotel</li></h2>
+             <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/77000000/76890000/76885800/76885704/081c3585.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76890000/76885800/76885704/8cba7a59.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76890000/76885800/76885704/c02269e7.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/77000000/76890000/76885800/76885704/15fdbc15.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+            <br><h3>About the hotel</h3>
+            <P align ="justify">Seliyaa Hotel offers an airport shuttle (available 24 hours) for USD 19 per vehicle one-way. Guests can keep active with on-site hiking/biking trails and mountain biking, and free perks include WiFi, valet parking and continental breakfast daily between 8:00 AM and 11:00 AM.</P>
+            
+            <h2><li>Panta Lodge SIwa</li></h2>
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://images.trvl-media.com/lodging/89000000/88520000/88512200/88512128/368dfd7e.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://images.trvl-media.com/lodging/89000000/88520000/88512200/88512128/52a2074c.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://images.trvl-media.com/lodging/89000000/88520000/88512200/88512128/6f545657.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://images.trvl-media.com/lodging/89000000/88520000/88512200/88512128/eb4e8fa6.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+        <br><h3>About the hotel</h3> 
+        <P align ="justify">When visiting Siwa, Panta Lodge SIwa is a great choice to consider. Guests can take a dip in the outdoor pool, or visit the fitness centre for a workout</P>
+        
+        <h2><li>Dream Lodge Siwa</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://images.trvl-media.com/lodging/37000000/36050000/36048900/36048899/b9fddb78.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://images.trvl-media.com/lodging/37000000/36050000/36048900/36048899/16f583fc.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://images.trvl-media.com/lodging/37000000/36050000/36048900/36048899/54a21e53.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://images.trvl-media.com/lodging/37000000/36050000/36048900/36048899/d0a72d36.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the hotel</h3>
+        <p align ="justify">
+            Dream Lodge Siwa offers a free airport shuttle (available 24 hours). Guests can be pampered with massages at the spa and grab a bite to eat at the coffee shop/cafe. Other highlights include an indoor pool, an outdoor pool and a bar/lounge.
+        </p>
+        <h2><li>Siwa Paradise Hotel</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://images.trvl-media.com/lodging/57000000/56210000/56204500/56204475/183e86b9.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://images.trvl-media.com/lodging/57000000/56210000/56204500/56204475/4e92bf69.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://images.trvl-media.com/lodging/57000000/56210000/56204500/56204475/3268f33f.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://images.trvl-media.com/lodging/57000000/56210000/56204500/56204475/a23a3486.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the hotel</h3>
+        <p align ="justify">
+            Siwa Paradise Hotel is a great choice for a stay in Siwa. Guests can take a dip in the outdoor pool, and free perks include WiFi, valet parking and continental breakfast daily between 7:30 AM and 10:30 AM.
+        </p>
+
+        <h2><li>Santarya Siwa Resort - Hostel</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://images.trvl-media.com/lodging/77000000/76410000/76407700/76407645/6fdcc585.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://images.trvl-media.com/lodging/77000000/76410000/76407700/76407645/0cdd7508.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://images.trvl-media.com/lodging/77000000/76410000/76407700/76407645/0fcd1c22.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://images.trvl-media.com/lodging/77000000/76410000/76407700/76407645/2f838d5d.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+
+        <br><h3>About the hotel</h3>
+        <P align ="justify">
+            Situated on the bay, Santarya Siwa Resort - Hostel is a great choice for a stay in Siwa. You can splash around at the 3 outdoor or 3 indoor pools, visit one of the 2 restaurants for a bite to eat or unwind with a drink at the bar/lounge. Other features include a children's pool and a garden.
+        </P>
+
+        <h2><li>Taghaghien Island Resort</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/7c/b8/b4/taghaghien-island-resort.jpg?w=1100&h=-1&s=1" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/38/a4/d9/island.jpg?w=1400&h=-1&s=1" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/38/a6/a4/taghaghien-island-resort.jpg?w=800&h=-1&s=1" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/9c/97/44/your-very-own-private.jpg?w=2000&h=-1&s=1" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the hotel</h3>
+        <P align ="justify">
+            An idyllic island haven, Taghaghien is set against a dramatic mountain backdrop amid a lush 38,000 sqm of land within the great Lake of Siwa. Access to the Resort is through a scenic 2km road that stretches across the Salt Lake to the main Island. Located 13km from downtown, we offer you a peaceful getaway in this secluded retreat. Surrounded by turquoise waters, limestone rock formations, green fields, and golden desert sands, you are guaranteed breathtaking 360 degree views within these stunning surroundings. In the center of the island lies a ravishing 4m deep Roman Cold Spring, as well as lush green fields and fruitful palm trees. The Island features 30 rustic style bungalows, a café/restaurant, oriental outlets, and a lavish reception featuring a western style bar for hosting group events and live entertainment. The reception also provides an elevated spacious rooftop that overlooks the entire island and its surroundings. Needless to say, the view from the top is nothing.
+        </P>
+
+        </ol>
+        <br>
+        <h3>Reference :</h3> 
+            <P>
+                <a href="https://www.tripadvisor.com/Hotels-g303857-Siwa_Matrouh_Governorate-Hotels.html">Tripadvisor.com</a>
+                <br>
+                <a href="https://www.hotels.com/Hotel-Search?HadPinnedHotel=true&PinnedHotelID=16163&destination=Luxor%2C%20Luxor%20Governorate%2C%20Egypt&endDate=2023-11-12&regionId=2181&selected=16163&semdtl=&sort=RECOMMENDED&startDate=2023-11-11&theme=&useRewards=false&userIntent=">hotels.com</a>
+                <br>
+                <a href="https://www.booking.com/hotel/eg/mirage-alexandria.en-gb.html?aid=852815&label=msn-4gk09CVZd_XtUWTx%2AmOqKg-16821565891%3Atikwd-80264554485339%3Aloc-187%3Aneo%3Amte%3Alp143039%3Adec%3Aqsbest%20hotels%20in%20alexandria&sid=3b71a78620b6297bde7f3b9d294f84f9">booking.com</a>
+                <br>
+                <a href="https://wanderingwheatleys.com/best-nile-cruise-ships-egypt-luxor-aswan/">Wandering Wheatleys.com</a>
+            </P>
+        
+    </div>
+
+    <div class="Cruising" id="b" style=" display : none;">
+        <h1> Top 6 nile river cruise in egypt </h1><br>
+        <ol>
+        <h2><li> Alexander the Great Nile Cruise</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2021/05/best-luxury-nile-river-cruise-egypt-alexander-the-great-nile-cruise-.jpg" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2021/05/best-nile-cruise-ships-egypt-alexander-the-great-nile-cruise-.jpg" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://th.bing.com/th/id/R.7077dae0af67c5b3153c4d898d88d6a9?rik=UJfXJnZJjftxdA&pid=ImgRaw&r=0" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://th.bing.com/th/id/OIP.D8nm8tvC1AA4Ooff0dnu2wHaE7?pid=ImgDet&rs=1" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the cruise</h3>
+        <p align ="justify">The Alexander the Great Cruise is a gorgeous cruise ship offering a 4-night Nile River cruise that departs every Monday from Luxor, and a 3-night Nile cruise that departs every Friday from Aswan. This Nile cruise even offers a free airport shuttle service!
+
+        </p>
+
+        <br><h2><li> M/S Esplanade Cruise</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://th.bing.com/th/id/OIP.6MpWp9u3ZMJwIP5_mwyKMAHaD4?pid=ImgDet&rs=1" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://th.bing.com/th/id/OIP.B1BP7dMlLQfY8omyEvu0HQHaE8?pid=ImgDet&rs=1" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2019/10/the-best-cruise-ships-on-the-nile-egypt-ms-esplanade-cruise.jpg" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://th.bing.com/th/id/R.a190d1003043c4845f4a75ebd754e324?rik=cR5rMdFkAU1uLQ&pid=ImgRaw&r=0" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the cruise</h3>
+        <p align ="justify">
+        The M/S Esplanade Cruise is a chic, lavish ship offering 4 or 7-night Nile River cruises each Monday from Luxor, and 3 or 7-night Nile cruises from Aswan each Friday.
+        </p>
+
+        <br><h2><li> Mövenpick Royal Lily Cruise</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://cf2.bstatic.com/xdata/images/hotel/max1280x900/38347365.jpg?k=5a907fa90309004640b3bebd31e9c9507cb57a74e4673f73debd84c7d4dd6bbf&o=&hp=1" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://cf2.bstatic.com/xdata/images/hotel/max1280x900/38347421.jpg?k=ea5a95e7324997a14f63644edb68830ce3437e5aaf143560233e6e85e6120f75&o=&hp=1" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2021/05/best-luxor-nile-cruises-egypt-movenpick-royal-lily-cruise-.jpg" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://cf2.bstatic.com/xdata/images/hotel/max1280x900/38347416.jpg?k=185d364c5462cc650f9738ed31d6bb7c068c1d07184991a1ff4472a40ad90970&o=&hp=1" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the cruise</h3>
+        <P align ="justify">
+            The Mövenpick Royal Lily Cruise offers either a 4-night Nile cruise from Luxor to Aswan, or you can choose to make the trip a 7-day round trip affair! Of course the more nights you can spend on this luxury Nile River cruise line, the better!
+        </P>
+
+        <br><h2><li> Sonesta Moon Goddess</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2021/05/best-luxor-nile-river-cruise-egypt-sonesta-moon-goddess-.jpg" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://images.trvl-media.com/lodging/17000000/16330000/16327600/16327538/beef3988.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://images.trvl-media.com/lodging/17000000/16330000/16327600/16327538/7fda36cf.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://images.trvl-media.com/lodging/17000000/16330000/16327600/16327538/3101ce55.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the cruise</h3>
+        <P align ="justify">
+            The Sonesta Moon Goddess Cruise sets sail each Saturday for 3 or 7 nights from Luxor to Aswan. This modern, luxury cruise ship will be your home away from home as you sail down the Nile River, enjoying the sites and sounds from the comfort of your private room.
+        </P>
+
+        <br><h2><li> Oberoi Philae Nile Cruise</li></h2>
+        <section class="cont2">
+            <div class="slider-wrapper">
+                <div class="slider">
+                <img src="https://images.trvl-media.com/lodging/5000000/4640000/4633700/4633663/8b7ecc20.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img1" class="m1" id="slide-1"/>
+                <img src="https://images.trvl-media.com/lodging/5000000/4640000/4633700/4633663/67f59549.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img2" class="m2" id="slide-2"/>
+                <img src="https://wanderingwheatleys.com/wp-content/uploads/2021/05/best-luxor-nile-cruises-egypt-oberoi-philae-nile-cruise-.jpg" alt="img3" class="m3" id="slide-3"/>
+                <img src="https://images.trvl-media.com/lodging/5000000/4640000/4633700/4633663/2496afd8.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="img4" class="m4" id="slide-4"/>
+                </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </section>
+        <br><h3>About the cruise</h3>
+        <p align ="justify">
+            The 5-star Oberoi Philae Nile Cruise offers 4-night and 6-night cruises down the Nile between Aswan and Luxor. The friendly staff at the ship tour desk can assist in booking your airport transfer, any daily excursions, and anything else you may need during your stay onboard.
+
+         During your Nile cruise, you can take advantage of the fitness center, the terrace with beautiful views of the banks of the Nile, and the lovely spa services which include Thai massage, facials, and body scrubs.
+        </p>
+
+        <br><h2><li> MS Chateau Lafayette Nile Cruise</li></h2>
+        <br><h3>About the cruise</h3>
+        <P align ="justify">
+            <section class="cont2">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                    <img src="https://cf2.bstatic.com/xdata/images/hotel/max1280x900/236980533.jpg?k=189ad95251b1a3a558aa522603ceede1fa5a3045ba9fcea3f7789f3bc3cd176e&o=&hp=1" alt="img1" class="m1" id="slide-1"/>
+                    <img src="https://wanderingwheatleys.com/wp-content/uploads/2022/06/best-luxury-nile-cruises-egypt-ms-chateau-lafayette-nile-cruise.jpg" alt="img2" class="m2" id="slide-2"/>
+                    <img src="https://wanderingwheatleys.com/wp-content/uploads/2022/06/best-luxor-nile-cruises-egypt-ms-chateau-lafayette-nile-cruise.jpg" alt="img3" class="m3" id="slide-3"/>
+                    <img src="https://wanderingwheatleys.com/wp-content/uploads/2022/06/best-luxury-nile-river-cruise-egypt-ms-chateau-lafayette-nile-cruise.jpg" alt="img4" class="m4" id="slide-4"/>
+                    </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </section>
+         The MS Chateau Lafayette Nile Cruise departs from Luxor every Monday for four nights and from Aswan each Friday for three nights. The staff is exceptional and provides you with a 24-hour help desk and room service. 
+
+          The cruise also offers multiple packages to make your cruise experience exceptional. The cruise offers Sightseeing, Happiness, Felucca Breakfast, and Honeymoon/Anniversary packages.
+        </P>
+        </ol>
+        <br>
+        <h3>Reference :</h3> 
+            <P>
+                <a href="https://www.tripadvisor.com/Hotels-g303857-Siwa_Matrouh_Governorate-Hotels.html">Tripadvisor.com</a>
+                <br>
+                <a href="https://www.hotels.com/Hotel-Search?HadPinnedHotel=true&PinnedHotelID=16163&destination=Luxor%2C%20Luxor%20Governorate%2C%20Egypt&endDate=2023-11-12&regionId=2181&selected=16163&semdtl=&sort=RECOMMENDED&startDate=2023-11-11&theme=&useRewards=false&userIntent=">hotels.com</a>
+                <br>
+                <a href="https://www.booking.com/hotel/eg/mirage-alexandria.en-gb.html?aid=852815&label=msn-4gk09CVZd_XtUWTx%2AmOqKg-16821565891%3Atikwd-80264554485339%3Aloc-187%3Aneo%3Amte%3Alp143039%3Adec%3Aqsbest%20hotels%20in%20alexandria&sid=3b71a78620b6297bde7f3b9d294f84f9">booking.com</a>
+                <br>
+                <a href="https://wanderingwheatleys.com/best-nile-cruise-ships-egypt-luxor-aswan/">Wandering Wheatleys.com</a>
+            </P>
+        
+
+    </div>
+    
+    <script>
+        function showMe(value) {
+            if (value=="cairo"){
+                document.getElementById('x').style.display="block";
+                document.getElementById('y').style.display="none";
+                document.getElementById('z').style.display="none";
+                document.getElementById('a').style.display="none";
+                document.getElementById('b').style.display="none";
+            }
+            if(value=="luxor"){
+                document.getElementById('x').style.display="none";
+                document.getElementById('y').style.display="block";
+                document.getElementById('z').style.display="none";
+                document.getElementById('a').style.display="none";
+                document.getElementById('b').style.display="none";
+            }
+            if(value=="Alexandria"){
+                document.getElementById('x').style.display="none";
+                document.getElementById('y').style.display="none";
+                document.getElementById('z').style.display="block";
+                document.getElementById('a').style.display="none";
+                document.getElementById('b').style.display="none";
+            }
+            if(value=="Siwa"){
+                document.getElementById('x').style.display="none";
+                document.getElementById('y').style.display="none";
+                document.getElementById('z').style.display="none";
+                document.getElementById('a').style.display="block";
+                document.getElementById('b').style.display="none";
+            }
+            if(value=="Cruising the Nile"){
+                document.getElementById('x').style.display="none";
+                document.getElementById('y').style.display="none";
+                document.getElementById('z').style.display="none";
+                document.getElementById('a').style.display="none";
+                document.getElementById('b').style.display="block";
+            }
+        }
+    </script>
+
+
+    </body>
+
+</html>

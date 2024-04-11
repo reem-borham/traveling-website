@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+}
+
+#ulmain{
+    display: block;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.liright{
+    font-family: Arial;
+    margin: 0;
+    font-weight: bold;
+    font-size: 27;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    border: 2px solid;
+    border-color: black;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.liright:hover:not(.a1){
+    background-color:  #5c099c;
+}
+
+.a1{
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-stretch: wider;
+    font-size: 70;
+    border-radius: 40px;
+    background-color: #000000;
+    background-size: contain;
+    height: 50px;
+}
+
+.licountry{
+    margin: 0;
+    font-weight: bold;
+    float: left;
+    font-size: 27;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0px 0px;
+    border: none;
+    border-color: black;
+    margin-left: 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:  #000000;
+}
+
+.dropdown{
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 35;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:  #000000;
+    z-index: 1;
+}
+
+.dropdown_content{
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown_contenta{
+    color: #5c099c;
+    text-decoration: none;
+
+}
+
+.dropdown:hover{
+    cursor: pointer;
+    background-color: #5c099c;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.bg{
+
+    background-image: url(nuwide.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.homebg{
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    font-family: Arial;
+}
+
+.pbox{
+    display: block;
+    position: absolute; top: 110px; left: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #000000;
+    text-align: justify;
+    width: 900px;
+    height: fit-content;
+    line-height: 2.5;
+}
+
+.pspan{
+    font-family: Arial;
+    font-size: 22pt;
+}
+
+.travelgif{
+    position: absolute; top: 110px; left: 1050px;
+    border: 3.5px solid; color: white;
+    border-radius: 25px;
+    height: 600px;
+}
+
+.pbox2{
+    display: block;
+    position: absolute; top: 900px; left: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #000000;
+    text-align: justify;
+    width: 900px;
+    height: fit-content;
+    line-height: 2.5;
+}
+.pbox3{
+    display: block;
+    position: absolute; top: 1500px; left: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #000000;
+    text-align: justify;
+    width: 900px;
+    height: fit-content;
+    line-height: 2.5;
+}
+.pbox4{
+    display: block;
+    position: absolute; top: 2000px; left: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #000000;
+    text-align: justify;
+    width: 900px;
+    height: fit-content;
+    line-height: 2.5;
+}
+.culturepic{
+    position: absolute; top: 800px; left: 1150px;
+    border: 3.5px solid; color: white;
+    border-radius: 25px;
+    width: 700px; height: 600px;
+}
+.foodgif{
+    position: absolute; top: 1495px; left: 1150px;
+    border: 3.5px solid; color: white;
+    border-radius: 25px;
+    width: 650px;
+    height: 400px;
+}
+.landmarkpic{
+    position: absolute; top: 1970px; left: 1150px;
+    border: 3.5px solid; color: white;
+    border-radius: 25px;
+    width: 700px;
+    height: 500px;
+}
+.team{
+    position: absolute; top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+.bigdiv{
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textpic{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.pictureframe{
+    display: inline-block;
+    border: 2px solid;
+    border-color: #000000;
+    width: fit-content;
+    border-radius: 30px;
+    box-shadow: 16px 16px rgba(0,0,0,0.3);
+    transition: linear 0.25s;
+}
+#youssef:hover{
+    transform: scale(1.35) rotateZ(10deg);
+    box-shadow: 16px 16px 16px rgba(0, 255, 149, 0.5);
+}
+#ahmed:hover{
+    transform: scale(1.35) rotateZ(10deg);
+    box-shadow: 16px 16px 16px rgba(199, 113, 1, 0.5);
+}
+#sarah:hover{
+    transform: scale(1.35) rotateZ(10deg);
+    box-shadow: 16px 16px 16px rgba(255, 0, 0, 0.5);
+}
+#reem:hover{
+    transform: scale(1.35) rotateZ(10deg);
+    box-shadow: 16px 16px 16px rgba(25, 0, 255, 0.5);
+}
+#alaa:hover{
+    transform: scale(1.35) rotateZ(10deg);
+    box-shadow: 16px 16px 16px rgba(255, 192, 203, 0.63);
+}
+
+.picture{
+    object-fit: cover; 
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.italybg{
+
+    background-image: url(italybg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.italytext{
+    position: absolute; top: 200px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 60px;
+    font-size: 250px;
+    color: #000000;
+    animation: unfade 4s, heartbeat 2s infinite 4.3s;   
+}
+@keyframes unfade{
+    0%{color: rgba(0, 0, 0, 0); letter-spacing: 100px;}
+}
+@keyframes heartbeat {
+    50%{transform: scale(1.2);}
+}
+
+.italy1bg{
+    background-image: url(italy1bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2000px; height: 1600px;
+    overflow-x: hidden;
+}
+
+.pagination {
+    display: inline-block;
+    position: fixed; left: 730px; top: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+  
+.pagination a {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+  
+.pagination a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffffff; 
+}
+  
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+  
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.culture{
+    display: block;
+    position: absolute; top: 110px; left: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: justify;
+    width: 1630px;
+    height: fit-content;
+    line-height: 2.5;
+}
+
+.cathedral{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 3.5px solid; color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: justify;
+    height: fit-content;
+    line-height: 2;
+}
+
+.landmarkanim{
+    scale: 0.9;
+    transition: linear 0.25s;
+}
+
+#cathedralpic:hover{
+    transform: scale(1.2);
+}
+
+.foodanim{
+    animation: rotate 4.5s infinite linear;
+}
+
+@keyframes rotate {
+    0%{transform: rotateZ(360deg);}
+}
+
+.pizza{
+    display: none;
+}
+
+.pasta{
+    display: none;
+}
+
+.gelato{
+    display: none;
+}
+
+.pizzaimg:hover .pizza{
+    display: block;
+}
+
+.pastaimg:hover .pasta{
+    display: block;
+}
+
+.gelatoimg:hover .gelato{
+    display: block;
+}
+
+.submit:hover{
+    background-color: rgb(196, 195, 195);
+}
